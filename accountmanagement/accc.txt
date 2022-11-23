@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--<title>Sidebar Menu | Side Navigation Bar</title>-->
+    <!-- CSS -->
+    <link rel="stylesheet" href="css.css" />
+    <!-- Boxicons CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <i class="bx bx-menu menu-icon"></i>
+        <span class="logo-name"><p><H1>ACCOUNT MANAGEMENT SYSTEM</H1></P></span>
+      </div>
+<style>
+body {
+  height: 3000px;
+  background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+</style>
+      <div class="sidebar">
+        <div class="logo">
+          <i class="bx bx-menu menu-icon"></i>
+          <span class="logo-name"><p><H3>ACCOUNT</H3></P></span>
+        </div>
+
+        <div class="sidebar-content">
+          <ul class="lists">
+            <li class="list">
+              <a href="q.html" class="nav-link">
+                <i class="bx bx-home-alt icon"></i>
+                <span class="link">CREATE ACCOUNT</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="2.html" class="nav-link">
+                <i class="bx bx-bar-chart-alt-2 icon"></i>
+                <span class="link">DELETE ACCOUNT</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="3.html" class="nav-link">
+                <i class="bx bx-bell icon"></i>
+                <span class="link">UPDATE ACCOUNT</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="4.html" class="nav-link">
+                <i class="bx bx-message-rounded icon"></i>
+                <span class="link">GET ALL ACCOUNT DETAILS</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="5.html" class="nav-link">
+                <i class="bx bx-pie-chart-alt-2 icon"></i>
+                <span class="link">GET SINGLE ACCOUNT DETAILS</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="6.html" class="nav-link">
+                <i class="bx bx-heart icon"></i>
+                <span class="link">DEPOSIT AMOUNT</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="7.html" class="nav-link">
+                <i class="bx bx-folder-open icon"></i>
+                <span class="link">WITHDRAW AMOUNT</span>
+              </a>
+            </li>
+		<li class="list">
+              <a href="8.html" class="nav-link">
+                <i class="bx bx-heart icon"></i>
+                <span class="link">TRANSFER FUNDS</span>
+              </a>
+            </li>
+		<li class="list">
+              <a href="9.html" class="nav-link">
+                <i class="bx bx-heart icon"></i>
+                <span class="link">STATEMENT</span>
+              </a>
+            </li>
+<li class="list">
+              <a href="10.html" class="nav-link">
+                <i class="bx bx-log-out icon"></i>
+                <span class="link">Logout</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="overlay"></section>
+
+    <script>
+      const navBar = document.querySelector("nav"),
+        menuBtns = document.querySelectorAll(".menu-icon"),
+        overlay = document.querySelector(".overlay");
+
+      menuBtns.forEach((menuBtn) => {
+        menuBtn.addEventListener("click", () => {
+          navBar.classList.toggle("open");
+        });
+      });
+
+      overlay.addEventListener("click", () => {
+        navBar.classList.remove("open");
+      });
+    </script>
+  </body>
+</html>
+
