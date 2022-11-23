@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Home Page</title>
+    </head>
+    <body bgcolor="peachpuff">
+        <header id="h">
+            <b>Hospital Management System</b>
+        </header>
+        <div id="allimages">
+            <div id="images1">
+                <a  href="C:\Users\LAKSHMI DIVIJA\Documents\.net folders\html hospital nd account management systems\HOSPITAL MANAGEMENT SYSTEM CODES\appt.html"><img src="C:\Users\LAKSHMI DIVIJA\Downloads\BookAnAppointment.png"></a>
+            </div>
+            <div id="images2">
+                <a href="C:\Users\LAKSHMI DIVIJA\Documents\.net folders\html hospital nd account management systems\HOSPITAL MANAGEMENT SYSTEM CODES\consult.html"><img src="C:\Users\LAKSHMI DIVIJA\Downloads\ConsultOnline.png"></a>
+            </div>
+            <div id="images3">
+                <a href="C:\Users\LAKSHMI DIVIJA\Documents\.net folders\html hospital nd account management systems\HOSPITAL MANAGEMENT SYSTEM CODES\med.html"><img src="C:\Users\LAKSHMI DIVIJA\Downloads\BuyMedicine.png"></a>
+            </div>
+            <div id="images4">
+                <a href="C:\Users\LAKSHMI DIVIJA\Documents\.net folders\html hospital nd account management systems\HOSPITAL MANAGEMENT SYSTEM CODES\test.html"><img src="C:\Users\LAKSHMI DIVIJA\Downloads\BookLabTest.png"></a>
+            </div>
+        </div>
+    </body>
+</html>
+<style>
+    body
+    {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #h 
+    {
+      background-color:cadetblue; 
+      font-size: 35px;
+      padding: 18px 0;
+      text-align: center;
+      color: white;
+      border-style:solid;
+    }
+    #allimages
+    {
+        display: flex;
+    }
+    #images1,#images2,#images3,#images4
+    {
+        width:25%;
+        position: relative;
+        margin-top: 10px;
+        padding-left: 70px;
+    }
+    img
+    {
+        cursor:pointer;
+    }
+</style>

@@ -1,0 +1,26 @@
+<html>
+<head>
+<p><h1>TO BOOK AN APPOINTMENT PLEASE FOLLOW THE BELOW INSTRUCTIONS</h1></p>
+<style>
+body
+{
+font-family: Arial, Helvetica, sans-serif;
+}
+img
+{
+cursor:pointer;
+}
+</style>
+<body bgcolor="peachpuff">
+<h1>SELECT YOUR CITY</H1>
+        <div id="p">Private online consultations with verified doctors in all specialists<br><br>
+        Popular cities</div>
+        <img src="C:\Users\LAKSHMI DIVIJA\Downloads\Cities.png"><br><br>
+        <h2>Select Speciality</h2>
+        <div id="p">Private online consultations with verified doctors in all specialists</div>
+        <br>
+        <h2>Select The Hospital Near You</h2>
+        <div id="p">Select the near by hospital you would like to book the appointment</div><br>
+        <img src="C:\Users\LAKSHMI DIVIJA\Downloads\Hospitals.png">
+    </body>
+</html>
